@@ -29,7 +29,7 @@ public:
 
 int main()
 {
-    // Initialisation
+    // Initialization
     auto service = std::make_shared<ExampleService>();
     Director::Register<IService>(service);
     // ...
